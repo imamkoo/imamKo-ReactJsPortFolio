@@ -1,6 +1,6 @@
-import "./About.css";
-import AboutImg from "../../assets/blackprofile.png";
 import CV from "../../assets/CV. IMAM KHOLID UBAIDILLAH.pdf";
+import AboutImg from "../../assets/blackprofile.png";
+import "./About.css";
 import Info from "./Info";
 
 const About = () => {

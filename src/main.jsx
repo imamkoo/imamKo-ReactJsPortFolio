@@ -1,16 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./App.css";
-import Header from "./components/header/Header.jsx";
-import Home from "./components/Home/Home";
 import About from "./components/About/About";
-import Skill from "./components/Skills/Skill";
-import Service from "./components/Services/Service";
-import Qualification from "./components/Qualification/Qualification";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import ScrollUp from "./components/ScrollUp/ScrollUp";
+import Home from "./components/Home/Home";
 import Portfolio from "./components/Portfolio/Portfolio";
+import Qualification from "./components/Qualification/Qualification";
+import ScrollUp from "./components/ScrollUp/ScrollUp";
+import Service from "./components/Services/Service";
+import Skill from "./components/Skills/Skill";
+import Header from "./components/header/Header.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>

@@ -37,26 +37,26 @@ const Service = () => {
               ></i>
               <h3 className="services__modal-title">UI/UX</h3>
               <p className="services__modal-description">
-                2 years experience and always keep learning.
+                1 years experience and always keep learning.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle"></i>
-                  <p className="services__modal-info">Web Design</p>
+                  <p className="services__modal-info">Attractive User Interface Design: Creating visually appealing and intuitive designs to enhance the user experience.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle"></i>
                   <p className="services__modal-info">
-                    I Develop the user interface
+                    Interactive Prototype Development: Building interactive prototypes to test and validate design concepts before implementation.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle"></i>
                   <p className="services__modal-info">
-                    UX Element Interactions
+                    In-depth User Research: Conducting comprehensive user research to understand user needs and preferences.
                   </p>
                 </li>
               </ul>
@@ -69,13 +69,13 @@ const Service = () => {
               <h3 className="services__title">Front-end Developer</h3>
             </i>
           </div>
-          <span className="services__button" onClick={() => toggleTab(1)}>
+          <span className="services__button" onClick={() => toggleTab(2)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
           <div
             className={
-              toggleState === 1
+              toggleState === 2
                 ? "services__modal active-modal"
                 : "services__modal"
             }
@@ -87,26 +87,26 @@ const Service = () => {
               ></i>
               <h3 className="services__modal-title">Front-end</h3>
               <p className="services__modal-description">
-                2 years experience and always keep learning.
+                3 years experience and always keep learning.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle"></i>
-                  <p className="services__modal-info">Web Design</p>
+                  <p className="services__modal-info">Responsive Interface Development: Building responsive website interfaces, ensuring users can access them comfortably on various devices.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle"></i>
                   <p className="services__modal-info">
-                    I Develop the user interface
+                    Website Performance Optimization: Ensuring fast and efficient website performance, allowing users to access content quickly.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle"></i>
                   <p className="services__modal-info">
-                    UX Element Interactions
+                    Integration of Engaging Interfaces: Integrating attractive design with functional and interactive website interfaces.
                   </p>
                 </li>
               </ul>
@@ -119,13 +119,13 @@ const Service = () => {
               <h3 className="services__title">Back-end Developer</h3>
             </i>
           </div>
-          <span className="services__button" onClick={() => toggleTab(1)}>
+          <span className="services__button" onClick={() => toggleTab(3)}>
             View More
             <i className="uil uil-arrow-right services__button-icon"></i>
           </span>
           <div
             className={
-              toggleState === 1
+              toggleState === 3
                 ? "services__modal active-modal"
                 : "services__modal"
             }
@@ -137,26 +137,26 @@ const Service = () => {
               ></i>
               <h3 className="services__modal-title">Back-end</h3>
               <p className="services__modal-description">
-                2 years experience and always keep learning.
+                1 years experience and always keep learning.
               </p>
 
               <ul className="services__modal-services grid">
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle"></i>
-                  <p className="services__modal-info">Web Design</p>
+                  <p className="services__modal-info">Scalable System Development: Building a backend system that can scale and grow with the business.</p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle"></i>
                   <p className="services__modal-info">
-                    I Develop the user interface
+                    Secure Data Protection: Ensuring data security by implementing best practices in development and information protection.
                   </p>
                 </li>
 
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle"></i>
                   <p className="services__modal-info">
-                    UX Element Interactions
+                    Seamless API Integration: Integrating various services and APIs smoothly to enhance system functionality and performance.
                   </p>
                 </li>
               </ul>
